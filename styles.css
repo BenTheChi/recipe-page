@@ -28,7 +28,8 @@ img {
   max-width: none;
   min-width: 400px;
   display: block;
-  overflow-x: visible;
+  margin: auto;
+  border-radius: 2rem;
 }
 
 h1 {
@@ -64,9 +65,6 @@ li {
 }
 
 .image-section {
-  min-width: 400px;
-  border-radius: 2rem;
-  overflow: hidden;
   display: flex;
   justify-content: center;
 }
